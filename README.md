@@ -7,7 +7,7 @@ https://cesp.inserm.fr/en/equipe/exposome-and-heredity
 <br>
 **IMPORTANT NOTE:** This tutorial has been tested on **CentOS 7**.
 
-# Example 1 - Python
+# Example 1
 In this example, we want to create a Docker image including the following features
 * Having a Python (last version) with pre-installed libraries (**"pandas"** and **"numpy"**)
 * Copying three files (*"test.py"*, *"requirements.txt"*, and *"testfile.csv"*) in the root of the docker image.
@@ -62,7 +62,7 @@ exit
 ~~~
 
 
-# Example 2 - Python
+# Example 2
 In this example, we want to create a Docker image including the following features
 * Having a Python (last version) with pre-installed libraries (**"pandas"** and **"numpy"**)
 * Creating two folders (**"input"** and **"output"**) in the root of the Docker image.
